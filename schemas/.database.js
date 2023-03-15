@@ -1,5 +1,5 @@
 ({
-  name: 'messenger',
+  name: 'application',
   description: 'Database for messenger and EV parking combined project',
   version: 1,
   driver: 'pg',
