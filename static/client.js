@@ -150,7 +150,7 @@ const scaffold = async (url, structure) => {
 
   // Example of usage
   let spot, port;
-  const data = await api.auth.signin('user', 'nopassword');
+  const data = await api.auth.signin({ login: 'user', password: 'nopassword' });
   console.dir({ data });
   // Just get common catalogs for usage
   const portTypes = await api.parking.getKnownPortTypes();
