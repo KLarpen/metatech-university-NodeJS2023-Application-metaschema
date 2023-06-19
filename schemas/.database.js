@@ -4,7 +4,5 @@
   version: 1,
   driver: 'pg',
 
-  authors: [
-    { name: 'Vladyslav Karpenko', email: 'klarpen@gmail.com' },
-  ],
+  authors: [{ name: 'Vladyslav Karpenko', email: 'klarpen@gmail.com' }],
 });

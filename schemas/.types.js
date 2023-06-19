@@ -115,7 +115,11 @@
         return `Field "${path}" not a typedStringArray`;
       }
       for (const item of src) {
-        if (typeof item !== 'object' || typeof item.type !== 'string' || typeof item.value !== 'string' )
+        if (
+          typeof item !== 'object' ||
+          typeof item.type !== 'string' ||
+          typeof item.value !== 'string'
+        )
           return `Field "${path}" contains item value that's not compatible with typedStringArray`;
       }
       return null;
