@@ -1,4 +1,4 @@
-async (parkingId, electricChargerIdList) => {
+async ({ parkingId, electricChargerIdList }) => {
   console.log({
     method: 'parking.addParkingChargers',
     parkingId,

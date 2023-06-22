@@ -1,4 +1,4 @@
-async (chargingPortId, { available, cost, power }) => {
+async ({ chargingPortId, available, cost, power }) => {
   console.log({
     method: 'parking.updateChargingPort',
     chargingPortId,

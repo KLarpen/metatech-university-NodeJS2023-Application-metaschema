@@ -1,7 +1,11 @@
-async (
+async ({
   spotId,
-  { available, cost, suitableFor, electricChargerIdList, chargingPortIdList },
-) => {
+  available,
+  cost,
+  suitableFor,
+  electricChargerIdList,
+  chargingPortIdList,
+}) => {
   console.log({
     method: 'parking.updateSpot',
     spotId,

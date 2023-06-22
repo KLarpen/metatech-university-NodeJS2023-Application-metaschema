@@ -1,4 +1,4 @@
-async (areaId, memberIdList) => {
+async ({ areaId, memberIdList }) => {
   console.log({
     method: 'messenger.updateAreaMembers',
     areaId,
