@@ -4,7 +4,10 @@
   },
   "globals": {
     "common": "readonly",
-    "application": "readonly"
+    "application": "readonly",
+    "config": "readonly",
+    "db": "readonly",
+    "lib": "readonly"
   },
   "rules": {
     "strict": [
