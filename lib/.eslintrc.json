@@ -6,7 +6,9 @@
     "common": "readonly",
     "application": "readonly",
     "config": "readonly",
-    "db": "readonly"
+    "db": "readonly",
+    "lib": "readonly",
+    "domain": "readonly"
   },
   "rules": {
     "strict": [
